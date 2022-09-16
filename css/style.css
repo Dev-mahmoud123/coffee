@@ -6,6 +6,7 @@
 }
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 ::-webkit-scrollbar {
   width: 10px;
@@ -69,7 +70,10 @@ h2 span {
   position: relative;
 }
 .header .logo {
-  width: 120px;
+  height: 100%;
+}
+.header .logo img {
+  width: 63px;
 }
 .header .links ul {
   list-style: none;
